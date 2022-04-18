@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1> Calculating Coordinates: Fetch Rewards </h1>
+
+    <form action = "/solution" method = "post">
+        <p> Please enter tuple, (m,n), where m is the height and n is the width of the image in terms of pixel counts. Default values have been entered.</p>
+        <label for = "Image Dimensions">Image Dimensions:</label><br>
+        <input type = "text" id = "dimensions" name = "dimensions" value = "(3, 3)"><br>
+        <br>
+        <p> Please enter a list of four two-element tuples, (x,y), where x and y are coordinates of the image corner points. Default values have been entered.</p>
+        <label for = "Corner Points">Corner Points:</label><br>
+        <input type = "text" id = "corner_points" name = "corner_points" value = "[(1, 1), (3, 1), (1, 3), (3, 3)]"><br>
+        <br>
+        <p> Click on "See Solution" to display the solution matrix. </p>
+        <input type = "submit" value = "See Solution">
+    </form>
+
+</body>
+
+</html>
