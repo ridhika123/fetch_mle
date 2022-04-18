@@ -6,8 +6,8 @@ The objective of this challenge is to write a program that calculates pixel coor
 ## File description
 * [app.py](app.py): Contains the python code for the flask application, includes pre and post conditions for the program
 * [index.html](index.html): Contains html form that is used for POST request
-* [Dockerfile](Dockerfile): xx
-* [requirements.txt](requirements.txt): xx
+* [Dockerfile](Dockerfile): Contains all the commands to be called on the command line to assemble the image
+* [requirements.txt](requirements.txt): Contains the all the libraries, modules, and packages  used while developing this project
 
 # Requirements 
 * Install Docker desktop and make sure you are logged in  
@@ -16,7 +16,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 
 ### Using Docker Build
 * Create folder on your desktop, let us call it "calculating_coordinates"
-* Download and save [app.py](app.py), [Dockerfile](Dockerfile) and [requirements.txt] into "calculating_coordinates" folder
+* Download and save [app.py](app.py), [Dockerfile](Dockerfile) and [requirements.txt](requirements.txt) into "calculating_coordinates" folder
 * Create a folder called "templates" in the "calculating_coordinates" folder
 * Download and save [index.html](index.html) in "templates"
 * Open terminal and change directory to be in the "calculating_coordinates folder"
