@@ -13,12 +13,24 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Install Docker desktop and make sure you are logged in  
 
 ## How to Run the Flask App 
+
 ### Using Docker Build
+* Create folder on your desktop, let us call it "calculating_coordinates"
+* Download and save [app.py](app.py), [Dockerfile](Dockerfile) and [requirements.txt] into "calculating_coordinates" folder
+* Create a folder called "templates" in the "calculating_coordinates" folder
+* Download and save [index.html](index.html) in "templates"
+* Open terminal and change directory to be in the "calculating_coordinates folder"
+* Next, run command ```docker build -t flask_calculating_coordinates``` in terminal 
+* Finally, run ```docker run -p 5000:5000 flask_calculating_coordinates``` 
+* Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
+
 ### Using Docker Pull
 * Run the following command in terminal to pull image ```docker pull ridhika/flask_calculating_coordinates ```
 * Next, run the following code which will display the images in directory ```docker images```
 * Run the following command after replacing the <Image ID> with the Image ID associated with repository ridhika/flask_calculating_coordinates  ```docker run -p 5000:5000 <Image ID>```
-* Ctrl+Click on the link that pops up in terminal, this will open a web page, which is the Flask app
-* To stop the container, run ```docker ps``` and copy the Container ID corresponding to the relevant image
-* Paste the Container ID and run ```docker stop <Container ID>```
-* Now if you visit the link (http://127.0.0.1:5000/), it will display an error
+* Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
+  
+## How to Stop the Container
+* Run ```docker ps``` and copy the Container ID corresponding to the relevant image
+* Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
+* Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
