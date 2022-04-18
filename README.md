@@ -16,12 +16,12 @@ The objective of this challenge is to write a program that calculates pixel coor
 ## How to Run the Flask App 
 
 ### Using Docker Build
-* Create folder on your desktop, let us call it "calculating_coordinates"
+* Create a folder on your desktop called "calculating_coordinates"
 * Download and save [app.py](app.py), [Dockerfile](Dockerfile) and [requirements.txt](requirements.txt) into "calculating_coordinates" folder
-* Create a folder called "templates" in the "calculating_coordinates" folder
+* Create another folder called "templates" inside the "calculating_coordinates" folder
 * Download and save [index.html](index.html) in "templates"
-* Open terminal and change directory to be in the "calculating_coordinates folder"
-* Next, run command ```docker build -t flask_calculating_coordinates``` in terminal 
+* Now, open a terminal window and change directory to be in the "calculating_coordinates" folder
+* Next, run command ```docker build -t flask_calculating_coordinates .``` 
 * Finally, run ```docker run -p 5000:5000 flask_calculating_coordinates``` 
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
 
@@ -32,6 +32,6 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
   
 ### How to Stop the Container
-* Run ```docker ps``` and copy the Container ID corresponding to the relevant image
+* In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
 * Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
