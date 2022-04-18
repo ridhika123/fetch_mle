@@ -3,14 +3,14 @@
 ## Goal
 The objective of this challenge is to write a program that calculates pixel coordinate values for an image that is to be displayed on a two dimensional surface given the dimensions of the image and the corner points of the image as it is to be displayed.
 
-## File description
+## File descriptions
 * [app.py](app.py): Contains the python code for the flask application, includes pre and post conditions for the program
 * [index.html](index.html): Contains html form that is used for POST request
 * [Dockerfile](Dockerfile): Contains all the commands to be called on the command line to assemble the image
 * [requirements.txt](requirements.txt): Contains the all the libraries, modules, and packages  used while developing this project
 
-# Requirements 
-* Install Docker desktop and make sure you are logged in  
+## Requirements 
+* Install and log into Docker desktop
 
 ## How to Run the Flask App 
 
