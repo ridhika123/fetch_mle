@@ -10,8 +10,8 @@ The objective of this challenge is to write a program that calculates pixel coor
 * [requirements.txt](requirements.txt): Contains the all the libraries, modules, and packages  used while developing this project
 
 ## Requirements 
-* Install and log into Docker desktop
 * Install python and pip 
+* To view/edit the files once downloaded, download visual studio code (or equivalent)
 
 ## How to Run the Flask App 
 
