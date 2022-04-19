@@ -8,6 +8,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 * [index.html](index.html): Contains html form that is used for POST request
 * [Dockerfile](Dockerfile): Contains all the commands to be called on the command line to assemble the image
 * [requirements.txt](requirements.txt): Contains the all the libraries, modules, and packages  used while developing this project
+* [test.py](test.py): Contains tests for the functions and setup of the application
 
 ## Requirements 
 * Install python and pip 
@@ -35,3 +36,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 * In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
 * Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
+  
+## Testing
+The unit tests are contained in file [test.py](test.py)
+  
