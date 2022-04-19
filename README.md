@@ -33,7 +33,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
   
 ## Testing
-The unit tests are contained in file [test.py](test.py). 
+The tests are contained in file [test.py](test.py). 
 To run, download the file to the same folder "calculating_coordinates" and run ```python -u test.py``` in terminal.
 
 The application passes all the tests:
@@ -41,5 +41,5 @@ The application passes all the tests:
 
 ## Stopping the Container
 * In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
-* Paste the Container ID and run the command ```docker stop <Container ID>```
+* Paste the Container ID in place of \<Container ID\> and run the command ```docker stop <Container ID>```
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error  
