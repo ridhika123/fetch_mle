@@ -39,6 +39,8 @@ The objective of this challenge is to write a program that calculates pixel coor
   
 ## Testing
 The unit tests are contained in file [test.py](test.py). 
+To run, download the file to the same folder "calculating_coordinates" and run ```python -u test.py``` in terminal.
+
 The application passes all the tests:
 ![testing_output](https://user-images.githubusercontent.com/37682124/164016982-2b7b3619-fa9a-4209-b16e-adaf1b3ba754.png)
 
