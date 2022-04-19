@@ -32,11 +32,6 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Run the following command after replacing the <Image ID> with the Image ID associated with repository ridhika/flask_calculating_coordinates  ```docker run -p 5000:5000 <Image ID>```
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
   
-## Stopping the Container
-* In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
-* Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
-* Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
-  
 ## Testing
 The unit tests are contained in file [test.py](test.py). 
 To run, download the file to the same folder "calculating_coordinates" and run ```python -u test.py``` in terminal.
@@ -44,4 +39,7 @@ To run, download the file to the same folder "calculating_coordinates" and run `
 The application passes all the tests:
 ![testing_output](https://user-images.githubusercontent.com/37682124/164016982-2b7b3619-fa9a-4209-b16e-adaf1b3ba754.png)
 
-  
+## Stopping the Container
+* In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
+* Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
+* Now, if you visit the link (http://127.0.0.1:5000/), it will display an error  
