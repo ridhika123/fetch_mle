@@ -38,5 +38,8 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
   
 ## Testing
-The unit tests are contained in file [test.py](test.py)
+The unit tests are contained in file [test.py](test.py). 
+The application passes all the tests:
+![testing_output](https://user-images.githubusercontent.com/37682124/164016982-2b7b3619-fa9a-4209-b16e-adaf1b3ba754.png)
+
   
