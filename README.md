@@ -29,7 +29,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 ### Using Docker Pull
 * Run the following command in terminal to pull image ```docker pull ridhika/flask_calculating_coordinates ```
 * Next, run the following code which will display the images in directory ```docker images```
-* Run the following command after replacing the <Image ID> with the Image ID associated with repository ridhika/flask_calculating_coordinates  ```docker run -p 5000:5000 <Image ID>```
+* Run the following command after replacing the \<Image ID\> with the Image ID associated with repository ridhika/flask_calculating_coordinates  ```docker run -p 5000:5000 <Image ID>```
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
   
 ## Testing
