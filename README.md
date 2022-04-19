@@ -41,5 +41,5 @@ The application passes all the tests:
 
 ## Stopping the Container
 * In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
-* Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
+* Paste the Container ID and run the command ```docker stop <Container ID>```
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error  
