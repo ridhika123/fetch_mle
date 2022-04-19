@@ -32,7 +32,7 @@ The objective of this challenge is to write a program that calculates pixel coor
 * Run the following command after replacing the <Image ID> with the Image ID associated with repository ridhika/flask_calculating_coordinates  ```docker run -p 5000:5000 <Image ID>```
 * Ctrl+Click on the first link that pops up in terminal, this will open a web page, which is the Flask app
   
-### How to Stop the Container
+## Stopping the Container
 * In terminal, run ```docker ps``` and copy the Container ID corresponding to the relevant image
 * Paste the Container ID in place of <Container ID> and run the command ```docker stop <Container ID>```
 * Now, if you visit the link (http://127.0.0.1:5000/), it will display an error
